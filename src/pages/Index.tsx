@@ -64,7 +64,7 @@ const Index = () => {
                 <CardTitle className="text-xl text-primary">Programming Languages</CardTitle>
               </CardHeader>
               <CardContent className="flex flex-wrap gap-2 justify-center">
-                {["C", "C++", "Java", "Python"].map((lang) => (
+                {["C", "C++", "Java", "Python", "Javascript"].map((lang) => (
                   <Badge key={lang} variant="secondary" className="text-sm px-3 py-1">
                     {lang}
                   </Badge>
